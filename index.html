@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Title -->
+  <title>Frontend Mentor | Product preview card component</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f2ebe3] flex flex-col justify-center items-center h-screen w-screen p-0 m-0 box-border">
+<!-- Main Div -->
+  <main class="flex flex-col sm:flex-row justify-center bg-white w-[370px] sm:w-[600px] sm:h-[450px] text-[#6C7289] rounded-lg shadow-2xl">
+    <!-- Desktop Image -->
+    <div class="-ml-3">
+      <img class="hidden sm:block w-full h-[450px] rounded-l-lg sm:shadow-2xl" src="images/image-product-desktop.jpg" alt="image-product-desktop">
+    </div>
+    <!-- Mobile Image -->
+    <div class="grid place-items-center">
+      <img class="rounded-t-lg sm:hidden" src="images/image-product-mobile.jpg" alt="image-product-mobile">
+    </div>
+    <!-- Headings and Paragraph -->
+    <div class="pl-7 mt-5 sm:mt-8">
+      <h2 class="mb-2 font-[Montserrat] font-medium text-xs">P E R F U M E</h2>
+      <h1 class="w-[300px] sm:w-56 sm:leading-8 text-[#1C232B] text-3xl font-bold font-[Fraunces] sm:mt-5 sm:mb-5">Gabrielle Essence Eau De Parfum</h1>
+      <p class="w-[300px] sm:w-60 font-medium my-3 mb-5">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+    </div>
+    <!-- Princing Components -->
+    <div class="sm:flex sm:justify-center sm:items-end space-x-36 sm:space-x-5 sm:-space-y-0 sm:-ml-60 sm:mb-20 sm:p-5 -space-y-7 pl-7 sm:pl-0">
+      <p class="text-[#1A6147] text-3xl font-bold font-[Fraunces]">$149.99</p>
+      <p class="text-sm font-medium line-through sm:pb-2">$169.99</p>
+    </div>
+    <!-- Button -->
+    <button class="mt-7 sm:mt-[370px] sm:-ml-52 flex justify-center items-center m-5 p-3 rounded-lg w-[90%] sm:w-60 sm:h-[50px] text-white font-semibold bg-[#1A6147] hover:bg-[#0e3628] active:opacity-70 transition-all"> <img class="mr-3" src="images/icon-cart.svg" alt="icon-cart"> Add to Cart</button>
+  </main>
+
+</body>
+</html>

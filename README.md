@@ -8,8 +8,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Deploy]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-wrdQLdtotV)
+- Live Site URL: [Deploy](https://kalebemax.github.io/product-preview-card-component-main/)
 
 
 
